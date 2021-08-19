@@ -1,6 +1,6 @@
 {
 	"name": "My-Pallets",
-	"displayName": "Naveen's Extensions",
+	"displayName": "Lazy Extensions",
 	"description": "Lazy extensions",
 	"version": "0.0.3",
 	"engines": {
@@ -10,15 +10,15 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:My-Pallets.openNewTabWT"
+		"onCommand:Terminal-Pallets.openNewTabWT"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "My-Pallets.openNewTabWT",
-				"category": "My Palletes",
-				"title": "Open new tab in Windows Terminal"
+				"command": "Terminal-Pallets.openNewTabWT",
+				"category": "WindowsTerminal",
+				"title": "Open new tab"
 			}
 		]
 	},

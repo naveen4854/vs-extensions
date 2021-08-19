@@ -3,7 +3,7 @@ import * as cp from "child_process";
 
 export function activate(context: vscode.ExtensionContext) {
 
-	let disposable = vscode.commands.registerCommand('My-Pallets.openNewTabWT', async () => {
+	let disposable = vscode.commands.registerCommand('Terminal-Pallets.openNewTabWT', async () => {
 		const paths = vscode.workspace.workspaceFolders?.map(folder => folder.uri.path);
 		console.log(paths, vscode.workspace.name);
 		if (paths && paths.length > 0) {
